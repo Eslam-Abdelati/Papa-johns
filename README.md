@@ -47,16 +47,15 @@ cd papa-johns-restaurant
 ---
 
 ✅ 2. Install dependencies
--- **npm install
----
+npm install
+
 
 ✅ 3. Run JSON Server (mock backend)
 json-server --watch db.json --port 5000
----
+
 
 ✅ 4. Start the React application
 npm run dev
----
 
 ✅ Why This Project is Unique?
 ✔ Designed and developed without a UI/UX designer.
