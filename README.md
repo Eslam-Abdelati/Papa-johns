@@ -47,7 +47,7 @@ cd papa-johns-restaurant
 ---
 
 ✅ 2. Install dependencies
-npm install
+-- **npm install
 ---
 
 ✅ 3. Run JSON Server (mock backend)
