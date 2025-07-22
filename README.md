@@ -38,30 +38,24 @@ The main goal of this project was to **design and develop a modern, responsive r
 
 ---
 
-## ⚡ How to Run Locally
 
-### ✅ 1. Clone the repository
-```bash
+⚡ How to Run Locally
+✅ 1. Clone the repository
 git clone https://github.com/yourusername/papa-johns-restaurant.git
 cd papa-johns-restaurant
-### ✅ 2. Install dependencies
+✅ 2. Install dependencies
 npm install
-### ✅ 3. Run JSON Server (mock backend)
+✅ 3. Run JSON Server (mock backend)
 json-server --watch db.json --port 5000
-### ✅ 4. Start the React application
+✅ 4. Start the React application
 npm run dev
-
-
----
-
-### ✅ Why This Project is Unique?
+✅ Why This Project is Unique?
 ✔ Designed and developed without a UI/UX designer.
 ✔ Inspired by a real-world restaurant brand (Papa John’s).
 ✔ Combines design thinking + coding skills.
 
----
-
-
-### 👨‍💻 Author
+👨‍💻 Author
 Eslam Ammar – Front-End Developer
+📌 GitHub Profile | LinkedIn Profile
+
 
