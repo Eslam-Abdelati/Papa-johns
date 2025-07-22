@@ -1,0 +1,28 @@
+
+.pizza {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px; /* مسافة بين الديفات */
+}
+.pizza > div {
+  flex: 1 1 calc(25% - 8px);
+  min-width: 250px;
+}
+
+.pizza div {
+    border: 1px solid #009562;
+    
+}
+.btn {
+  border-radius: 0;
+  background-color: #009562;
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  padding-top: 7px;
+  padding-bottom: 7px;
+}
+.btn:hover {
+    background-color: #009562;
+    color: white;
+}

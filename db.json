@@ -1,0 +1,442 @@
+{
+  "Customer service": [
+    {
+      "id": "0afb",
+      "name": "Eslam Amaar",
+      "email": "eslam_amaar@yahoo.com",
+      "phone": "01203702198",
+      "address": "balat",
+      "complaintType": "تأخر التوصيل",
+      "orderType": "توصيل للمنزل",
+      "message": "xxx"
+    }
+  ],
+  "menus": [
+    {
+      "id": 1,
+      "name": "عرض قائمة الطعام",
+      "image": "/src/assets/menu-icon.jpg",
+      "link": "/pizzaMenu"
+    },
+    {
+      "id": 2,
+      "name": "عرض الفروع",
+      "image": "/src/assets/branches-wp.jpg",
+      "link": "/branches"
+    },
+    {
+      "id": 3,
+      "name": "عرض الجودة",
+      "image": "/src/assets/better-better-wp.jpg",
+      "link": ""
+    },
+    {
+      "id": 4,
+      "name": "عرض الوظائف",
+      "image": "/src/assets/careers-wp.jpg",
+      "link": "/"
+    }
+  ],
+  "pizzas": [
+    {
+      "id": 1,
+      "name": "مارغريتا",
+      "description": "بيتزا كلاسيكية بجبنة الموزاريلا وصلصة الطماطم",
+      "image": "/src/assets/Super-Papa.jpg",
+      "types": [
+        {
+          "typeName": "مارغريتا كلاسيك",
+          "sizes": [
+            { "sizeName": "صغير", "price": 50 },
+            { "sizeName": "وسط", "price": 70 },
+            { "sizeName": "كبير", "price": 90 }
+          ]
+        },
+        {
+          "typeName": "مارغريتا إكسترا جبن",
+          "sizes": [
+            { "sizeName": "صغير", "price": 60 },
+            { "sizeName": "وسط", "price": 80 },
+            { "sizeName": "كبير", "price": 100 }
+          ]
+        },
+        {
+          "typeName": "مارغريتا بالزيتون",
+          "sizes": [
+            { "sizeName": "صغير", "price": 55 },
+            { "sizeName": "وسط", "price": 75 },
+            { "sizeName": "كبير", "price": 95 }
+          ]
+        },
+        {
+          "typeName": "مارغريتا بالخضار",
+          "sizes": [
+            { "sizeName": "صغير", "price": 58 },
+            { "sizeName": "وسط", "price": 78 },
+            { "sizeName": "كبير", "price": 98 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "بيبروني",
+      "description": "بيتزا بيبروني مع صوص طماطم وجبنة موزاريلا",
+     "image": "/src/assets/Super-Papa.jpg",
+      "types": [
+        {
+          "typeName": "بيبروني كلاسيك",
+          "sizes": [
+            { "sizeName": "صغير", "price": 65 },
+            { "sizeName": "وسط", "price": 85 },
+            { "sizeName": "كبير", "price": 105 }
+          ]
+        },
+        {
+          "typeName": "بيبروني إكسترا",
+          "sizes": [
+            { "sizeName": "صغير", "price": 75 },
+            { "sizeName": "وسط", "price": 95 },
+            { "sizeName": "كبير", "price": 115 }
+          ]
+        },
+        {
+          "typeName": "بيبروني بالخضار",
+          "sizes": [
+            { "sizeName": "صغير", "price": 70 },
+            { "sizeName": "وسط", "price": 90 },
+            { "sizeName": "كبير", "price": 110 }
+          ]
+        },
+        {
+          "typeName": "بيبروني سبايسي",
+          "sizes": [
+            { "sizeName": "صغير", "price": 72 },
+            { "sizeName": "وسط", "price": 92 },
+            { "sizeName": "كبير", "price": 112 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "سوبريم",
+      "description": "بيتزا مشكلة باللحوم والخضروات المتنوعة",
+      "image": "/src/assets/Super-Papa.jpg",
+      "types": [
+        {
+          "typeName": "سوبريم كلاسيك",
+          "sizes": [
+            { "sizeName": "صغير", "price": 70 },
+            { "sizeName": "وسط", "price": 90 },
+            { "sizeName": "كبير", "price": 110 }
+          ]
+        },
+        {
+          "typeName": "سوبريم إكسترا جبن",
+          "sizes": [
+            { "sizeName": "صغير", "price": 80 },
+            { "sizeName": "وسط", "price": 100 },
+            { "sizeName": "كبير", "price": 120 }
+          ]
+        },
+        {
+          "typeName": "سوبريم بالخضار",
+          "sizes": [
+            { "sizeName": "صغير", "price": 75 },
+            { "sizeName": "وسط", "price": 95 },
+            { "sizeName": "كبير", "price": 115 }
+          ]
+        },
+        {
+          "typeName": "سوبريم سبايسي",
+          "sizes": [
+            { "sizeName": "صغير", "price": 78 },
+            { "sizeName": "وسط", "price": 98 },
+            { "sizeName": "كبير", "price": 118 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "name": "سي فود",
+      "description": "بيتزا بالمأكولات البحرية الطازجة",
+      "image": "/src/assets/Super-Papa.jpg",
+      "types": [
+        {
+          "typeName": "سي فود كلاسيك",
+          "sizes": [
+            { "sizeName": "صغير", "price": 80 },
+            { "sizeName": "وسط", "price": 100 },
+            { "sizeName": "كبير", "price": 120 }
+          ]
+        },
+        {
+          "typeName": "سي فود إكسترا جبن",
+          "sizes": [
+            { "sizeName": "صغير", "price": 90 },
+            { "sizeName": "وسط", "price": 110 },
+            { "sizeName": "كبير", "price": 130 }
+          ]
+        },
+        {
+          "typeName": "سي فود بالتونة",
+          "sizes": [
+            { "sizeName": "صغير", "price": 85 },
+            { "sizeName": "وسط", "price": 105 },
+            { "sizeName": "كبير", "price": 125 }
+          ]
+        },
+        {
+          "typeName": "سي فود بالجمبري",
+          "sizes": [
+            { "sizeName": "صغير", "price": 95 },
+            { "sizeName": "وسط", "price": 115 },
+            { "sizeName": "كبير", "price": 135 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "name": "هاواي",
+      "description": "بيتزا بالأناناس والدجاج المشوي",
+      "image": "/src/assets/Super-Papa.jpg",
+      "types": [
+        {
+          "typeName": "هاواي كلاسيك",
+          "sizes": [
+            { "sizeName": "صغير", "price": 65 },
+            { "sizeName": "وسط", "price": 85 },
+            { "sizeName": "كبير", "price": 105 }
+          ]
+        },
+        {
+          "typeName": "هاواي إكسترا جبن",
+          "sizes": [
+            { "sizeName": "صغير", "price": 75 },
+            { "sizeName": "وسط", "price": 95 },
+            { "sizeName": "كبير", "price": 115 }
+          ]
+        },
+        {
+          "typeName": "هاواي بالخضار",
+          "sizes": [
+            { "sizeName": "صغير", "price": 70 },
+            { "sizeName": "وسط", "price": 90 },
+            { "sizeName": "كبير", "price": 110 }
+          ]
+        },
+        {
+          "typeName": "هاواي سبايسي",
+          "sizes": [
+            { "sizeName": "صغير", "price": 72 },
+            { "sizeName": "وسط", "price": 92 },
+            { "sizeName": "كبير", "price": 112 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "name": "بيبيكيو تشيكن",
+      "description": "بيتزا بالدجاج وصوص الباربيكيو",
+      "image": "/src/assets/Super-Papa.jpg",
+      "types": [
+        {
+          "typeName": "بيبيكيو كلاسيك",
+          "sizes": [
+            { "sizeName": "صغير", "price": 70 },
+            { "sizeName": "وسط", "price": 90 },
+            { "sizeName": "كبير", "price": 110 }
+          ]
+        },
+        {
+          "typeName": "بيبيكيو إكسترا جبن",
+          "sizes": [
+            { "sizeName": "صغير", "price": 80 },
+            { "sizeName": "وسط", "price": 100 },
+            { "sizeName": "كبير", "price": 120 }
+          ]
+        },
+        {
+          "typeName": "بيبيكيو بالخضار",
+          "sizes": [
+            { "sizeName": "صغير", "price": 75 },
+            { "sizeName": "وسط", "price": 95 },
+            { "sizeName": "كبير", "price": 115 }
+          ]
+        },
+        {
+          "typeName": "بيبيكيو سبايسي",
+          "sizes": [
+            { "sizeName": "صغير", "price": 78 },
+            { "sizeName": "وسط", "price": 98 },
+            { "sizeName": "كبير", "price": 118 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 7,
+      "name": "خضروات",
+      "description": "بيتزا مليئة بالخضروات الطازجة",
+     "image": "/src/assets/Super-Papa.jpg",
+      "types": [
+        {
+          "typeName": "خضروات كلاسيك",
+          "sizes": [
+            { "sizeName": "صغير", "price": 60 },
+            { "sizeName": "وسط", "price": 80 },
+            { "sizeName": "كبير", "price": 100 }
+          ]
+        },
+        {
+          "typeName": "خضروات إكسترا جبن",
+          "sizes": [
+            { "sizeName": "صغير", "price": 70 },
+            { "sizeName": "وسط", "price": 90 },
+            { "sizeName": "كبير", "price": 110 }
+          ]
+        },
+        {
+          "typeName": "خضروات مع الزيتون",
+          "sizes": [
+            { "sizeName": "صغير", "price": 65 },
+            { "sizeName": "وسط", "price": 85 },
+            { "sizeName": "كبير", "price": 105 }
+          ]
+        },
+        {
+          "typeName": "خضروات سبايسي",
+          "sizes": [
+            { "sizeName": "صغير", "price": 68 },
+            { "sizeName": "وسط", "price": 88 },
+            { "sizeName": "كبير", "price": 108 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 8,
+      "name": "ميكس جبن",
+      "description": "بيتزا بأربعة أنواع من الجبن",
+     "image": "/src/assets/Super-Papa.jpg",
+      "types": [
+        {
+          "typeName": "ميكس جبن كلاسيك",
+          "sizes": [
+            { "sizeName": "صغير", "price": 65 },
+            { "sizeName": "وسط", "price": 85 },
+            { "sizeName": "كبير", "price": 105 }
+          ]
+        },
+        {
+          "typeName": "ميكس جبن إكسترا",
+          "sizes": [
+            { "sizeName": "صغير", "price": 75 },
+            { "sizeName": "وسط", "price": 95 },
+            { "sizeName": "كبير", "price": 115 }
+          ]
+        },
+        {
+          "typeName": "ميكس جبن بالخضار",
+          "sizes": [
+            { "sizeName": "صغير", "price": 70 },
+            { "sizeName": "وسط", "price": 90 },
+            { "sizeName": "كبير", "price": 110 }
+          ]
+        },
+        {
+          "typeName": "ميكس جبن سبايسي",
+          "sizes": [
+            { "sizeName": "صغير", "price": 72 },
+            { "sizeName": "وسط", "price": 92 },
+            { "sizeName": "كبير", "price": 112 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 9,
+      "name": "سلامي",
+      "description": "بيتزا سلامي لذيذة",
+     "image": "/src/assets/Super-Papa.jpg",
+      "types": [
+        {
+          "typeName": "سلامي كلاسيك",
+          "sizes": [
+            { "sizeName": "صغير", "price": 70 },
+            { "sizeName": "وسط", "price": 90 },
+            { "sizeName": "كبير", "price": 110 }
+          ]
+        },
+        {
+          "typeName": "سلامي إكسترا",
+          "sizes": [
+            { "sizeName": "صغير", "price": 80 },
+            { "sizeName": "وسط", "price": 100 },
+            { "sizeName": "كبير", "price": 120 }
+          ]
+        },
+        {
+          "typeName": "سلامي بالخضار",
+          "sizes": [
+            { "sizeName": "صغير", "price": 75 },
+            { "sizeName": "وسط", "price": 95 },
+            { "sizeName": "كبير", "price": 115 }
+          ]
+        },
+        {
+          "typeName": "سلامي سبايسي",
+          "sizes": [
+            { "sizeName": "صغير", "price": 78 },
+            { "sizeName": "وسط", "price": 98 },
+            { "sizeName": "كبير", "price": 118 }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 10,
+      "name": "تونة",
+      "description": "بيتزا بالتونة الطازجة",
+     "image": "/src/assets/Super-Papa.jpg",
+      "types": [
+        {
+          "typeName": "تونة كلاسيك",
+          "sizes": [
+            { "sizeName": "صغير", "price": 65 },
+            { "sizeName": "وسط", "price": 85 },
+            { "sizeName": "كبير", "price": 105 }
+          ]
+        },
+        {
+          "typeName": "تونة إكسترا",
+          "sizes": [
+            { "sizeName": "صغير", "price": 75 },
+            { "sizeName": "وسط", "price": 95 },
+            { "sizeName": "كبير", "price": 115 }
+          ]
+        },
+        {
+          "typeName": "تونة بالخضار",
+          "sizes": [
+            { "sizeName": "صغير", "price": 70 },
+            { "sizeName": "وسط", "price": 90 },
+            { "sizeName": "كبير", "price": 110 }
+          ]
+        },
+        {
+          "typeName": "تونة سبايسي",
+          "sizes": [
+            { "sizeName": "صغير", "price": 72 },
+            { "sizeName": "وسط", "price": 92 },
+            { "sizeName": "كبير", "price": 112 }
+          ]
+        }
+      ]
+    }
+  ]
+}

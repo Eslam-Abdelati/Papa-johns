@@ -1,0 +1,16 @@
+footer {
+  background-color: #ab131b;
+  /* position: fixed;
+  bottom: 0; */
+  width: 100%;
+}
+.footer-links-rounded img {
+  border-radius: 8px;
+  background: #7d0e14;
+  padding: 3px;
+  max-width: 100%;
+  height: auto;
+}
+.developer {
+  font-size: 11px;
+}
